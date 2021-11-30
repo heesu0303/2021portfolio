@@ -15,7 +15,7 @@
 	<div class="content">
 		 
 	</div>
-	
+	 
 	<!-- footer -->
 	<jsp:include page="footer.jsp"></jsp:include>
 </body>
