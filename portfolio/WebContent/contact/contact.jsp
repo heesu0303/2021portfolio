@@ -5,7 +5,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>CONTACT</title>
-	<link rel="stylesheet" href="http://localhost:9000/portfolio/css/main.css">
+	<link rel="shortcut icon" type="image⁄x-icon" href="http://localhost:9000/portfolio/images/heesu_mark.png">
+	<link rel="stylesheet" href="http://localhost:9000/portfolio/css/portfolio_main.css">
 </head>
 <body>
 	<!-- header -->
