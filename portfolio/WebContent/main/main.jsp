@@ -14,7 +14,18 @@
 	
 	<!-- content -->
 	<div class="content">
-		 
+		 <!-- <section>
+			<div class="about_top">
+				<img src="http://localhost:9000/portfolio/images/1.jpg">
+				<div>
+					<div class="line1"></div>
+					<h1>Hello</h1>
+					<h2>My name is Heesu</h2>
+					<h3></h3>
+					<div class="vertical_text"><a href="http://localhost:9000/portfolio/about/about.jsp">who am i</a></div>
+				</div>
+			</div>
+		</section> -->
 	</div>
 	  
 	<!-- footer -->
