@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+
+/*******about_content*******/
+
+div.about_content{
+	border:1px solid orange;
+	height:2500px;
+}
+
+
 /*******about_top*******/
 
 div.about_top{
@@ -38,7 +47,6 @@ div.about_top h3{
 	color:#3e3a3f;
 }
 div.vertical_text{
-/* border-bottom:1px solid white; */
 	-webkit-transform:rotate(-90deg);
 	display:inline-block;
 	font-size:18px;
@@ -59,7 +67,7 @@ div.vertical_text:after{
   height:1px;
   margin:1px 0 0;
   transition:all 0.2s ease-in-out;
-  transition-duration:0.2s;
+  transition-duration:0.3s;
   opacity:0;
   background-color:#33b5cc;
 }
@@ -76,49 +84,118 @@ div.vertical_text:hover:after{
 
 /*******about_me*******/
 
+section#about_me{
+	height:750px;
+}
+section#about_me>div:first-child{
+	padding-bottom:90px;
+} 
+div.about_background{
+	background-color:#edeae0;
+	display:inline-block;
+	width:90%;
+	height:600px;	
+	margin:70px 0 70px 5%;
+}
 div.about_who{
 	display:block;
 	text-align:right;
-	margin:-100px 80px -450px 0;
+	margin:-822px 83px -450px 0;
 }
 div.about_who span{
 	font-size:150px;
 	font-weight:bold;
 	color:#fff6ab;
-	position: relative;
+	position:relative;
 	line-height:170px;
 }
-
-div.about_pic{
+div.about_who div{
 	display:inline-block;
-	margin:50px 0;
+	background-color:#fff6ab;
+	width:300px;
+	height:8px;
+	text-align:right;
 }
-div.about_pic img{
-	width:500px;
-	margin:100px 0 100px 200px;
-}
+
 #about_me article{
 	display:inline-block;
+	width:90%;
+	margin:155px 5% 0 5%;
+}
+div.about_pic{
+	display:inline-block;
+	margin-left:10%;
+}
+div.about_pic img{
+	border:1px solid #d0c6ae;
+	width:500px;
+	/* margin:110px 0 100px 100px; */
 }
 div.about_infor{
+	display:inline-block;
+	width:588px;
 	text-align:left;
-	margin:-550px 100px 100px 850px;
+	margin-left:100px;
+	/* margin:-580px 100px 100px 850px; */
 } 
-div.about_infor>p{
-	line-height:30px;
+div.about_infor div.line2{
+	background-color:#d0c6ae;
+	width:20px;
+	height:3px;
+	margin-bottom:40px;
 }
-
-@media screen and (max-width:1600px){
-	div.about_infor>p{
-		width:610px;
+div.about_infor p{
+	line-height:30px;
+	margin-bottom:40px;
+	color:#4d432d;
+	white-space:normal;
+}
+@media screen and (max-width:1300px){
+	div.hello{
+		margin-top:60px;
+		margin-left:-150px;
 	}
 }
+@media screen and (max-width:1550px){
+	div.about_who{
+		opacity:0.3;
+	}
+	#about_me article{
+		width:1000px;
+	}
+	div.about_pic{
+		margin-left:8%;
+	}
+	div.about_pic>img{
+		position:relative;
+		top:-65px;
+	}
+	div.about_infor{
+		width:310px;
+	}
+}
+div.about_infor div{
+	text-align:center;
+}
+div.about_infor img{
+	opacity:0.5;
+}
 
 
 
+/*******my_skills*******/
 
-
-
+section#my_skills{
+	height:800px;
+}
+div.my_skills_text>span{
+	display:inline-block;
+	font-size:100px;
+	font-weight:bold;
+	color:#a2cbcc;
+	margin-left:50px;
+	line-height:120px;
+}
 
 
 

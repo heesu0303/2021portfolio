@@ -4,13 +4,14 @@
 	margin:0;
 	padding:0;
 }
-header div{
-	width:80%;
+header>div, div.content section{
+	width:1200px;
 	margin:auto;
 }
-/******************
-	header style
-******************/
+
+/***************
+	header 
+***************/
  
 header{
 	width:100%;
@@ -56,25 +57,22 @@ header a:hover{
 
 
 
-/******************
-	main style
-******************/
-
-.content{
-border:1px solid red;
-
-}
-
-/*******about_top*******/
+/***************
+	content 
+***************/
 
 
 
 
 
 
-/******************
-	footer style
-******************/
+
+
+
+
+/***************
+	footer
+***************/
 
 footer{
 	weight:100%;
@@ -131,7 +129,47 @@ footer span{
 	color:white;
 }
 @media screen and (max-width:1300px){
-	footer p{
-		width:500px;
+	footer div.contact_infor, div.copy{
+		width:700px;
 	}
+}
+
+
+
+/*******위로 이동 스크롤*******/
+
+#back-to-top {
+  display:inline-block;
+  border:3px solid #d0c6ae;
+  width:30px;
+  height:30px;
+  text-align:center;
+  border-radius:30px;
+  position:fixed;
+  bottom:50px;
+  right:50px;
+  transition:background-color .3s, opacity .5s, visibility .5s;
+  opacity:0;
+  visibility:hidden;
+  z-index:1000;
+}
+#back-to-top::after {
+  content:"\f077";
+  font-family:FontAwesome;
+  font-weight:normal;
+  font-style:normal;
+  font-size:1em;
+  line-height:27px;
+  color:#d0c6ae;
+}
+#back-to-top:hover {
+  cursor:pointer;
+  background-color:#897e70;
+}
+#back-to-top:active {
+  background-color:#d0c6ae;
+}
+#back-to-top.show {
+  opacity:1;
+  visibility:visible;
 }

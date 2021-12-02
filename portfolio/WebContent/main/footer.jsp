@@ -9,7 +9,6 @@
 <body>
 	<footer>
 		<div class="contact_infor">
-			<!-- <img src="http://localhost:9000/portfolio/images/mark_lemon.png"> -->
 			<h3>Contact</h3>
 			<p>
 				Address : 서울시 서초구 서초동 사임당로23길 53 (1641-13)<br>
