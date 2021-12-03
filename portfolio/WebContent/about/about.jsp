@@ -70,7 +70,31 @@
 				<span>MY</span><br>
 				<span>SKILLS</span>
 			</div>
-			
+			<div class="line3"></div>
+			<div class="skills">
+				<ul class="skill_name">
+					<li>
+						<img src="http://localhost:9000/portfolio/images/skill_1.png">
+						<span>HTML/CSS3</span>
+					</li>
+					<li>
+						<img src="http://localhost:9000/portfolio/images/skill_2.png">
+						<span>JavaScript/JQuery</span>
+					</li>
+					<li>
+						<img src="http://localhost:9000/portfolio/images/skill_3.png">
+						<span>Photoshop</span>
+					</li>
+					<li>
+						<img src="http://localhost:9000/portfolio/images/skill_4.png">
+						<span>Illustrator</span>
+					</li>
+					<li>
+						<img src="http://localhost:9000/portfolio/images/skill_5.png">
+						<span>PASSION</span>
+					</li>
+				</ul>
+			</div>
 			
 			
 		</section>

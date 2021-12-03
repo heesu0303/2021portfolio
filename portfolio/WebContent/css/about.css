@@ -103,6 +103,7 @@ div.about_who{
 	margin:-822px 83px -450px 0;
 }
 div.about_who span{
+	cursor:default;
 	font-size:150px;
 	font-weight:bold;
 	color:#fff6ab;
@@ -150,6 +151,11 @@ div.about_infor p{
 	color:#4d432d;
 	white-space:normal;
 }
+@media screen and (max-width:800px){
+	div.about_who>div{
+		display:none;
+	}
+}
 @media screen and (max-width:1300px){
 	div.hello{
 		margin-top:60px;
@@ -188,6 +194,9 @@ div.about_infor img{
 section#my_skills{
 	height:800px;
 }
+div.my_skills_text{
+	margin-left:3%;
+}
 div.my_skills_text>span{
 	display:inline-block;
 	font-size:100px;
@@ -195,12 +204,42 @@ div.my_skills_text>span{
 	color:#a2cbcc;
 	margin-left:50px;
 	line-height:120px;
+	cursor:default;
+}
+div.line3{
+	background-color:#a2cbcc;
+	width:300px;
+	height:8px;
+	margin-top:30px;
+}
+div.skills{
+	height:500px;
+}
+ul.skill_name{
+	text-align:center;
+	list-style-type:none;
+	margin-top:120px;
+}
+ul.skill_name li{
+	display:inline-block;
+}
+ul.skill_name img{
+	display:inline-block;
+	margin-bottom:40px;
+}
+ul.skill_name span{
+	display:block;
+	padding:0 70px;
+	font-size:25px;
+	font-weight:bold;
+	color:#607475;
 }
 
-
-
-
-
+@media screen and (max-width:1500px){
+	ul.skill_name{
+		width:1500px;
+	}
+}
 
 
 
