@@ -5,7 +5,7 @@
 
 div.about_content{
 	border:1px solid orange;
-	height:2500px;
+	height:4000px;
 }
 
 
@@ -192,18 +192,19 @@ div.about_infor img{
 /*******my_skills*******/
 
 section#my_skills{
-	height:800px;
+	height:700px;
+	margin-bottom:100px;
 }
 div.my_skills_text{
 	margin-left:3%;
 }
 div.my_skills_text>span{
 	display:inline-block;
-	font-size:100px;
+	font-size:80px;
 	font-weight:bold;
 	color:#a2cbcc;
 	margin-left:50px;
-	line-height:120px;
+	line-height:100px;
 	cursor:default;
 }
 div.line3{
@@ -243,8 +244,28 @@ ul.skill_name span{
 
 
 
+/*******my_work*******/
 
+section#my_work{
+	/* background:linear-gradient(to top, white, lightgray); */
+	height:1500px;
+}
+div.work_img{
+	height:400px;
+	margin:20px 80px;
+	text-align:center;
+}
+section#my_work img{
+	height:400px;
+	margin:0 10px;
+	overflow:hidden; 
+}
 
+@media screen and (max-width:1800px){
+	section#my_work{
+		width:1800px;
+	}
+}
 
 
 
