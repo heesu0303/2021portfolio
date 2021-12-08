@@ -70,7 +70,7 @@
 				<span>MY</span><br>
 				<span>SKILLS</span>
 			</div>
-			<div class="line3"></div>
+			<!-- <div class="line3"></div> -->
 			<div class="skills">
 				<ul class="skill_name">
 					<li>
@@ -103,7 +103,7 @@
 					<img src="http://localhost:9000/portfolio/images/work1.jpg">
 					<img src="http://localhost:9000/portfolio/images/work2.jpg">
 					<img src="http://localhost:9000/portfolio/images/work3.jpg">
-					<img src="http://localhost:9000/portfolio/images/work4.JPG">
+					<img src="http://localhost:9000/portfolio/images/work4.jpg">
 				</div>
 			</article>
 			<article>
@@ -116,7 +116,7 @@
 			<article>
 				<div class="work_img">
 					<img src="http://localhost:9000/portfolio/images/work8.jpg">
-					<div style="display:inline-block; width:240px; margin-right:11px;">
+					<div style="display:inline-block; width:240px; margin-right:13px;">
 						<img src="http://localhost:9000/portfolio/images/work9.jpg" style="width:235px; height:auto; margin-bottom:16px;">
 						<img src="http://localhost:9000/portfolio/images/work10.jpg" style="width:235px; height:auto;">
 					</div>
@@ -124,6 +124,9 @@
 					<img src="http://localhost:9000/portfolio/images/work12.jpg">
 				</div>
 			</article>
+			<div class="more_portfolio">
+				<a href="http://localhost:9000/portfolio/portfolio/portfolio.jsp">more portfolio</a>
+			</div>
 		</section>
 	</div> 
 	

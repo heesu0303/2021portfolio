@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+/*******contact_content*******/
+
+div.contact_content{
+border-top:5px solid #777777;
+	height:700px;
+	text-align:center;
+}
+div.contact_content>img{
+	margin:40px 0 70px 0;
+}
+div.contact_text{
+	border:1px solid red;
+	width:500px;
+	height:300px;
+	margin:0 auto;
+}
+div.contact_content p{
+	font-size:20px;
+	line-height:40px;
+	color:#515151;
+}

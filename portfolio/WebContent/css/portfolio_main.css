@@ -61,7 +61,10 @@ header a:hover{
 	content 
 ***************/
 
-
+div.main_content{
+border:1px solid red;
+	height:700px;	
+}
 
 
 

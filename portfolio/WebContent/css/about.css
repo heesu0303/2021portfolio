@@ -4,8 +4,7 @@
 /*******about_content*******/
 
 div.about_content{
-	border:1px solid orange;
-	height:4000px;
+	height:3700px;
 }
 
 
@@ -59,25 +58,25 @@ div.about_top a{
 }
 
 div.vertical_text:after{
-  content:"";
-  position:absolute;
-  right:0;
-  bottom:-1px;
-  width:0px;
-  height:1px;
-  margin:1px 0 0;
-  transition:all 0.2s ease-in-out;
-  transition-duration:0.3s;
-  opacity:0;
-  background-color:#33b5cc;
+ 	content:"";
+ 	position:absolute;
+ 	right:0;
+ 	bottom:-1px;
+ 	width:0px;
+ 	height:1px;
+ 	margin:1px 0 0;
+ 	transition:all 0.2s ease-in-out;
+ 	transition-duration:0.3s;
+ 	opacity:0;
+ 	background-color:#33b5cc;
 }
 div.about_top a:hover{
 	color:#33b5cc;
 }
 div.vertical_text:hover:after{
-  width:100%;
-  opacity:1;
-  color:#33b5cc;
+ 	width:100%;
+ 	opacity:1;
+ 	color:#33b5cc;
 }
 
 
@@ -207,14 +206,18 @@ div.my_skills_text>span{
 	line-height:100px;
 	cursor:default;
 }
-div.line3{
+/* div.line3{
 	background-color:#a2cbcc;
 	width:300px;
 	height:8px;
 	margin-top:30px;
-}
+} */
 div.skills{
-	height:500px;
+border-top:8px solid #a2cbcc;
+border-bottom:8px solid #a2cbcc;
+	background-color:#dbecec;
+	height:450px;
+	margin-top:30px;
 }
 ul.skill_name{
 	text-align:center;
@@ -252,13 +255,18 @@ section#my_work{
 }
 div.work_img{
 	height:400px;
-	margin:20px 80px;
+	margin:20px auto;
 	text-align:center;
+	overflow:hidden;
 }
-section#my_work img{
-	height:400px;
+div.work_img img{
 	margin:0 10px;
-	overflow:hidden; 
+	/* transform:scale(1); 
+	transition:transform 0.5s linear; */
+}
+div.work_img img:hover{
+	/* transform:scale(1.1); */
+	filter:brightness(50%);
 }
 
 @media screen and (max-width:1800px){
@@ -267,7 +275,39 @@ section#my_work img{
 	}
 }
 
+div.more_portfolio{
+	display:inline-block;
+	font-size:18px;
+	font-weight:bold;
+	margin-top:10px;
+	margin-left:1620px;
+}
+div.more_portfolio>a{
+	text-decoration:none;
+	color:lightgray;
+}
 
+div.more_portfolio:after{
+	content:"";
+	position:absolute;
+	ight:0;
+	left:-1px;
+	width:200px;
+	height:2px;
+	margin:25px 0 0;
+	margin-left:1620px;
+	transition:all 0.3s ease-in-out;
+	transition-duration:0.3s;
+	opacity:0;
+	background-color:#33b5cc;
+}
+div.more_portfolio>a:hover{
+	color:#33b5cc;
+}
+div.more_portfolio:hover:after{
+	opacity:1;
+	color:#33b5cc;
+}
 
 
 
