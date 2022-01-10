@@ -16,9 +16,9 @@
 				Phone : +82 010-6317-7142
 			</p>
 			<div class="sns">
-				<a href="https://www.instagram.com/heesu.u" target="_blank"><img src="http://localhost:9000/portfolio/images/insta.png"></a>
-				<a href="https://www.facebook.com" target="_blank"><img src="http://localhost:9000/portfolio/images/facebook.png"></a>
-				<a href="https://www.youtube.com" target="_blank"><img src="http://localhost:9000/portfolio/images/youtube.png"></a>
+				<a href="https://www.instagram.com/heesu.u_jang" target="_blank"><img src="http://localhost:9000/portfolio/images/insta2.png"></a>
+				<a href="https://www.facebook.com" target="_blank"><img src="http://localhost:9000/portfolio/images/facebook2.png"></a>
+				<a href="https://blog.naver.com/heesu0303" target="_blank"><img src="http://localhost:9000/portfolio/images/blog.png"></a>
 			</div>
 		</div>
 		<div class="copy">

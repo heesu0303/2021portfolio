@@ -3,6 +3,79 @@
 /*******portfolio_content*******/
 
 div.portfolio_content{
-border:1px solid red;
-	height:700px;
+border-top:5px solid #f4e7d3;
+	height:1500px;
 }
+
+
+/*******all_pf*******/
+section#all_pf{
+	height:100px;
+}
+div.pf_tap{
+	text-align:center;
+	margin-top:50px;
+}
+div.pf_tap>ul{
+	list-style-type:none;
+	vertical-align:middle;
+}
+div.pf_tap li{
+	display:inline-block;
+}
+div.pf_tap a{
+	text-decoration:none;
+	border:2px solid #f4e7d3;
+	border-radius:30px;
+	padding:10px 30px;
+	margin:0 10px;
+	color:gray;
+	font-size:15px;
+	font-weight:bold;
+}
+div.pf_tap a:hover{
+	background-color:#f4e7d3;
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*******my_work*******/
+
+section#my_work{
+	/* background:linear-gradient(to top, white, lightgray); */
+	height:1500px;
+}
+div.work_img{
+	height:400px;
+	margin:20px auto;
+	text-align:center;
+	overflow:hidden;
+}
+div.work_img img{
+	margin:0 10px;
+	/* transform:scale(1); 
+	transition:transform 0.5s linear; */
+}
+div.work_img img:hover{
+	/* transform:scale(1.1); */
+	filter:brightness(50%);
+}
+
+@media screen and (max-width:1800px){
+	section#my_work{
+		width:1800px;
+	}
+}
+
