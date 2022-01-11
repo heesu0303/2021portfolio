@@ -79,7 +79,17 @@ div.vertical_text:hover:after{
  	color:#33b5cc;
 }
 
-
+div.hello{
+	animation: fadein 2s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
 
 /*******about_me*******/
 

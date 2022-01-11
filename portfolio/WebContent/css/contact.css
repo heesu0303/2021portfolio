@@ -48,6 +48,7 @@ div.contact_content>img{
 	display:inline-block;
 	position:absolute;
 	margin:-850px 0 70px -30%;
+	animation: fadein 2s;
 }
 div.contact_text{
 	position:absolute;
@@ -55,7 +56,18 @@ div.contact_text{
 	height:300px;
 	margin:-500px 0 70px 40%;
 	vertical-align:middle;
+	animation: fadein 2s;
 }
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
 div.sns_img{
 	text-align:left;
 	margin-left:100px;
@@ -70,3 +82,4 @@ div.sns_img img:hover{
 div.text_img{
 	margin-top:20px;
 }
+
