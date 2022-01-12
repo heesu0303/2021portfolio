@@ -13,9 +13,8 @@
 	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
 <body>
-	<!-- header -->
 	<a id="back-to-top"></a>
-	<%-- <jsp:include page="../main/header.jsp"></jsp:include> --%>
+	
 	<div class="top_menu">
 		<ul>
 			<li><a href="http://localhost:9000/portfolio/main/main.jsp">Home</a></li>
@@ -40,13 +39,6 @@
 				<img src="http://localhost:9000/portfolio/images/contact2.png">
 			</div>
 		</div>
-		
-		
-		
-		
 	</div>
-	
-	<!-- footer -->
-	<%-- <jsp:include page="../main/footer.jsp"></jsp:include> --%>
 </body>
 </html>
