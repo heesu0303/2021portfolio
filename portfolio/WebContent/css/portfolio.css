@@ -4,7 +4,7 @@
 
 div.portfolio_content{
 border-top:5px solid #f4e7d3;
-	height:1500px;
+	/* height:2000px; */
 }
 
 
@@ -55,7 +55,12 @@ div.pf_tap a:hover{
 
 section#my_work{
 	/* background:linear-gradient(to top, white, lightgray); */
-	height:1500px;
+	margin-bottom:200px;
+}
+section#my_work article{
+	text-align:center;
+	width:1800px;
+	margin:0 auto;
 }
 div.work_img{
 	height:400px;

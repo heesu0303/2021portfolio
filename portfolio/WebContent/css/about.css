@@ -4,7 +4,7 @@
 /*******about_content*******/
 
 div.about_content{
-	height:3700px;
+	height:4100px;
 }
 
 
@@ -262,7 +262,7 @@ ul.skill_name span{
 
 section#my_work{
 	/* background:linear-gradient(to top, white, lightgray); */
-	height:1500px;
+	height:2000px;
 }
 div.work_img{
 	height:400px;

@@ -20,7 +20,7 @@
 			<li><a href="http://localhost:9000/portfolio/main/main.jsp">Home</a></li>
 			<li><a href="http://localhost:9000/portfolio/about/about.jsp">About</a></li>
 			<li><a href="http://localhost:9000/portfolio/portfolio/portfolio.jsp">Portfolio</a></li>
-			<li><a href="http://localhost:9000/portfolio/contact/contact.jsp">Contact</a></li>
+			<li><a href="http://localhost:9000/portfolio/contact/contact.jsp" style="color:#33b5cc">Contact</a></li>
 		</ul>
 	</div>
 		

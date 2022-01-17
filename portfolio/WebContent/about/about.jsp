@@ -15,7 +15,19 @@
 <body>
 	<!-- header -->
 	<a id="back-to-top"></a>
-	<jsp:include page="../main/header.jsp"></jsp:include>
+	<header>
+		<div>
+			<nav>
+				<div class="title" onclick="location.href='http://localhost:9000/portfolio/main/main.jsp'">PORTFOLIO</div>
+				<ul>
+					<li><a href="http://localhost:9000/portfolio/main/main.jsp">Home</a></li>
+					<li><a href="http://localhost:9000/portfolio/about/about.jsp" style="color:#33b5cc">About</a></li>
+					<li><a href="http://localhost:9000/portfolio/portfolio/portfolio.jsp">Portfolio</a></li>
+					<li><a href="http://localhost:9000/portfolio/contact/contact.jsp">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
 	
 	<!-- content -->
 	<div class="about_content">
@@ -26,7 +38,7 @@
 					<div class="line1"></div>
 					<h1>Hello</h1>
 					<h2>My name is Heesu</h2>
-					<h3>I'm a creative developer</h3>
+					<h3>I'm a creative designer</h3>
 					<div class="vertical_text"><a href="#about_me">about me</a></div>
 				</div>
 			</div>
@@ -48,7 +60,7 @@
 					<div class="about_infor">
 						<div class="line2"></div>
 						<p>
-							안녕하세요! 풀 스택 개발자 장희수입니다.<br>
+							안녕하세요! 책임감과 열정으로 똘똘 뭉쳐 성장하고 있는 장희수입니다.<br>
 							어떤 분야에서든 끈기 있게 노력하는 사람은 결국 본인이 이루고자
 							하는 목표를 달성할 수 있다고 생각합니다. 이런 사람이 되기 위해
 							매사 저만의 목표를 세우고, 좋은 결과를 이루고자 노력하고 있습니다.
@@ -122,6 +134,13 @@
 					</div>
 					<img src="http://localhost:9000/portfolio/images/work11.jpg">
 					<img src="http://localhost:9000/portfolio/images/work12.jpg">
+				</div>
+			</article>
+			<article>
+				<div class="work_img">
+					<img src="http://localhost:9000/portfolio/images/work13.jpg">
+					<img src="http://localhost:9000/portfolio/images/work15.jpg">
+					<img src="http://localhost:9000/portfolio/images/work14.jpg">
 				</div>
 			</article>
 			<div class="more_portfolio">
