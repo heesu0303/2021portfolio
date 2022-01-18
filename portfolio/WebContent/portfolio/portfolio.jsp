@@ -18,9 +18,9 @@
 	<header>
 		<div>
 			<nav>
-				<div class="title" onclick="location.href='http://localhost:9000/portfolio/main/main.jsp'">PORTFOLIO</div>
+				<div class="title" onclick="location.href='http://localhost:9000/portfolio/main/index.jsp'">PORTFOLIO</div>
 				<ul>
-					<li><a href="http://localhost:9000/portfolio/main/main.jsp">Home</a></li>
+					<li><a href="http://localhost:9000/portfolio/main/index.jsp">Home</a></li>
 					<li><a href="http://localhost:9000/portfolio/about/about.jsp">About</a></li>
 					<li><a href="http://localhost:9000/portfolio/portfolio/portfolio.jsp" style="color:#33b5cc">Portfolio</a></li>
 					<li><a href="http://localhost:9000/portfolio/contact/contact.jsp">Contact</a></li>
